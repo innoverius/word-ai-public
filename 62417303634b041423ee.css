@@ -1,0 +1,61 @@
+.page-title {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.page-section-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.website-outer-container {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px 10px 10px 10px;
+  background-color: white;
+}
+
+.login-main, .main-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+}
+
+.login-content, .main-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  flex: 1;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  --bs-btn-bg: #0F6CBD;
+  --bs-btn-border-color: #0F6CBD;
+  --bs-btn-hover-bg: #0e5ea3;
+  --bs-btn-hover-border-color: #0e5ea3;
+  --bs-btn-active-bg: #0e5ea3;
+  --bs-btn-active-border-color: #0e5ea3;
+  padding-top: 2px;
+  display: flex;
+  flex-direction: row;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.login-spinner {
+  margin-right: 8px;
+}
+
+.error-text {
+  margin-top: 16px;
+  color: rgb(164, 38, 44);
+}
