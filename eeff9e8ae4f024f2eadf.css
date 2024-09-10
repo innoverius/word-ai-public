@@ -99,3 +99,22 @@
   overflow: scroll;
   --bs-dropdown-divider-margin-y: 5px;
 }
+
+.page-section-container {
+  width: 100%;
+}
+
+.page-button-container {
+  margin-top: 1rem;
+}
+
+.performtask-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  flex: 1;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
