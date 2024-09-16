@@ -25,6 +25,7 @@
   flex-direction: column;
   height: 100%;
   flex: 1;
+  padding: 0px 10px 10px 10px;
 }
 
 .login-content, .main-content {
@@ -34,7 +35,8 @@
   align-items: baseline;
   flex: 1;
   width: 100%;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .login-button {
@@ -108,13 +110,8 @@
   margin-top: 1rem;
 }
 
-.performtask-content {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: baseline;
-  flex: 1;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+
+.disconnect-button {
+  color: #0078D4;
 }
